@@ -1,0 +1,25 @@
+﻿[JavaScript:{ jsname: "JQuery" }]
+[JavaScript:{ path: "~/Resources/Shared/scripts/dnn.jquery.js"}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/Scripts/angular.min.js", provider: "DnnFormBottomProvider", priority: 1}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/Scripts/angular-route.min.js", provider: "DnnFormBottomProvider", priority: 2}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/Scripts/angular-strap.min.js", provider: "DnnFormBottomProvider", priority: 3}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/Scripts/angular-strap.tpl.min.js", provider: "DnnFormBottomProvider", priority: 4}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/Scripts/bootstrap.min.js", provider: "DnnFormBottomProvider", priority: 5}]
+
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/app/app.js", provider: "DnnFormBottomProvider", priority: 6}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/app/factories.js", provider: "DnnFormBottomProvider", priority: 7}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/app/controllers/playerListCtrl.js", provider: "DnnFormBottomProvider", priority: 8}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/app/controllers/playerDetailsCtrl.js", provider: "DnnFormBottomProvider", priority: 9}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/app/controllers/playerEditCtrl.js", provider: "DnnFormBottomProvider", priority: 10}]
+[JavaScript:{ path: "~/DesktopModules/DNNAudioPlayer/app/controllers/playerNewCtrl.js", provider: "DnnFormBottomProvider", priority: 11}]
+
+
+<div ng-app="DNNAudioPlayer[ModuleContext:ModuleId]">
+    <div ng-view></div>
+</div>
+
+
+<script language="javascript" type="text/javascript">
+    var moduleName = 'DNNAudioPlayer',
+        moduleId = parseInt('[ModuleContext:ModuleId]');
+</script>
