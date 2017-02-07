@@ -51,6 +51,9 @@ namespace RalphWilliams.Modules.DNNAudioPlayer.Services.ViewModels
         [JsonProperty("itemFileUrl")]
         public string FileUrl { get; set; }
 
+        [JsonProperty("itemDate")]
+        public int ItemDate { get; set; }
+
         [JsonProperty("assignedUser")]
         public int AssignedUser { get; set; }
 
